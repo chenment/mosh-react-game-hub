@@ -6,7 +6,7 @@ import GenreList from './components/GenreList.tsx'
 import { Genre } from './hooks/useGenres.ts'
 import PlatformSelector from './components/PlatformSelector.tsx'
 import SortSelector from './components/SortSelector.tsx'
-import { Platform } from './hooks/useGames.ts'
+import { Platform } from './hooks/usePlatforms.ts'
 import GameHeading from './components/GameHeading.tsx'
 
 export interface GameQuery {
